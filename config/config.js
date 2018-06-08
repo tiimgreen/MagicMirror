@@ -110,9 +110,33 @@ var config = {
 					"Club Atlético de Madrid",
 					// Germany
 					"FC Bayern München",
-					"Borussia Dortmund"
+					"Borussia Dortmund",
+					// World Cup
+					"England",
+					"Poland",
+					"Germany",
+					"Brazil",
+					"Belgium",
+					"Portugal",
+					"Argentina",
+					"Switzerland",
+					"France",
+					"Chile",
+					"Spain",
+					"Peru",
+					"Denmark",
+					"Uruguay",
+					"Mexico",
+					"Colombia",
+					"Netherlands",
+					"Wales",
+					"Italy",
+					"Croatia",
+					"Sweden",
+					"Senegal"
 				],
-				api_key: "853dcb03f6744e43a3d851c5af5e722d"
+				api_key: "853dcb03f6744e43a3d851c5af5e722d",
+				display_max: 20
 			}
 		}
 	]
