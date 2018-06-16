@@ -57,7 +57,7 @@ var config = {
 		},
 		{
 			module: "MMM-cryptocurrency",
-			position: "top_right",
+			position: "top_left",
 			config: {
 				currency: ["bitcoin", "ethereum", "chainlink"],
 				showUSD: true,
