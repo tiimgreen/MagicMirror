@@ -136,7 +136,7 @@ var config = {
 					"Senegal"
 				],
 				api_key: "853dcb03f6744e43a3d851c5af5e722d",
-				display_max: 20
+				display_max: 17
 			}
 		}
 	]
