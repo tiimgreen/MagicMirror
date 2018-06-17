@@ -65,7 +65,8 @@ var config = {
 				displayType: "logoWithChanges",
 				showGraphs: true,
 				coloredLogos: true,
-				animatedVinyl: false
+				animatedVinyl: false,
+				limit: 200
 			}
 		},
 		{
