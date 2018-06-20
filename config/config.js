@@ -79,7 +79,7 @@ var config = {
 					"Lique 1": 450,
 					"Champions League": 464,
 					"1. Bundesliga": 452,
-					"La Liga Santander": 455
+					"La Liga Santander": 455,
 				},
 				leagues_show_all_games: {
 					"World Cup": 467
@@ -113,40 +113,7 @@ var config = {
 					"Club Atlético de Madrid",
 					// Germany
 					"FC Bayern München",
-					"Borussia Dortmund",
-					// World Cup
-					"England",
-					"Poland",
-					"Germany",
-					"Brazil",
-					"Belgium",
-					"Portugal",
-					"Argentina",
-					"Switzerland",
-					"France",
-					"Chile",
-					"Spain",
-					"Peru",
-					"Denmark",
-					"Uruguay",
-					"Mexico",
-					"Colombia",
-					"Netherlands",
-					"Wales",
-					"Italy",
-					"Croatia",
-					"Sweden",
-					"Senegal",
-					"Costa Rica",
-					"Serbia",
-					"Japan",
-					"Saudi Arabia",
-					"Tunisa",
-					"Korea Republic",
-					"Panama",
-					"Iran",
-					"Morocco",
-					"Australia"
+					"Borussia Dortmund"
 				],
 				api_key: "853dcb03f6744e43a3d851c5af5e722d",
 				display_max: 25
