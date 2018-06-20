@@ -77,10 +77,12 @@ var config = {
 					"Premier League": 445,
 					"Serie A": 456,
 					"Lique 1": 450,
-					"World Cup": 467,
 					"Champions League": 464,
 					"1. Bundesliga": 452,
 					"La Liga Santander": 455
+				},
+				leagues_show_all_games: {
+					"World Cup": 467
 				},
 				teams: [
 					// England
