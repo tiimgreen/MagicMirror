@@ -81,7 +81,7 @@ var config = {
 					"1. Bundesliga": 452,
 					"La Liga Santander": 455,
 				},
-				leagues_show_all_games: {
+				leaguesShowAllGames: {
 					"World Cup": 467
 				},
 				teams: [
@@ -115,8 +115,43 @@ var config = {
 					"FC Bayern München",
 					"Borussia Dortmund"
 				],
-				api_key: "853dcb03f6744e43a3d851c5af5e722d",
-				display_max: 25
+				teamBadges: {
+					'Germany': 'https://img.fifa.com/images/flags/4/ger.png',
+					'Brazil': 'https://img.fifa.com/images/flags/4/bra.png',
+					'Belgium': 'https://img.fifa.com/images/flags/4/bel.png',
+					'Portugal': 'https://img.fifa.com/images/flags/4/por.png',
+					'Argentina': 'https://img.fifa.com/images/flags/4/arg.png',
+					'Switzerland': 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/1024px-Flag_of_Switzerland.svg.png',
+					'France': 'https://img.fifa.com/images/flags/4/fra.png',
+					'Poland': 'https://img.fifa.com/images/flags/4/pol.png',
+					'Spain': 'https://img.fifa.com/images/flags/4/esp.png',
+					'Peru': 'https://img.fifa.com/images/flags/4/per.png',
+					'Denmark': 'https://img.fifa.com/images/flags/4/den.png',
+					'England': 'https://img.fifa.com/images/flags/4/eng.png',
+					'Uruguay': 'https://img.fifa.com/images/flags/4/uru.png',
+					'Mexico': 'https://img.fifa.com/images/flags/4/mex.png',
+					'Colombia': 'https://img.fifa.com/images/flags/4/col.png',
+					'Croatia': 'https://img.fifa.com/images/flags/4/cro.png',
+					'Tunisia': 'https://img.fifa.com/images/flags/4/tun.png',
+					'Iceland': 'https://img.fifa.com/images/flags/4/isl.png',
+					'Costa Rica': 'https://img.fifa.com/images/flags/4/crc.png',
+					'Sweden': 'https://img.fifa.com/images/flags/4/swe.png',
+					'Senegal': 'https://img.fifa.com/images/flags/4/sen.png',
+					'Serbia': 'https://img.fifa.com/images/flags/4/srb.png',
+					'Australia': 'https://img.fifa.com/images/flags/4/aus.png',
+					'Iran': 'https://img.fifa.com/images/flags/4/irn.png',
+					'Morocco': 'https://img.fifa.com/images/flags/4/mar.png',
+					'Egypt': 'https://img.fifa.com/images/flags/4/egy.png',
+					'Nigeria': 'https://img.fifa.com/images/flags/4/nga.png',
+					'Korea Republic': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/255px-Flag_of_South_Korea.svg.png',
+					'Panama': 'https://www.onlinestores.com/flagdetective/images/download/panama-hi.jpg',
+					'Saudi Arabia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1000px-Flag_of_Saudi_Arabia.svg.png',
+					'Japan': 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png',
+					'Russia': 'https://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730%21Flag_of_Russia.svg'
+				},
+				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
+				display_max: 25,
+				timeFrame: "n28"
 			}
 		}
 	]
