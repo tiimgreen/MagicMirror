@@ -168,7 +168,14 @@ var config = {
           'Southampton FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/17.png',
           'Liverpool FC': 'http://aux.iconspalace.com/uploads/liverpool-fc-logo-icon-256.png',
           'Watford FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1795.png',
-          'Burnley FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1796.png'
+          'Burnley FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1796.png',
+          'AFC Bournemouth': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1943.png',
+          'Leicester City FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/95.png',
+          'Crystal Palace FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1799.png',
+          'Sunderland AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/106.png',
+          'Stoke City FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1806.png',
+          'Swansea City AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1960.png',
+          'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
 				displayMax: 25,
