@@ -178,7 +178,7 @@ var config = {
           'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
-				displayMax: 25,
+				displayMax: 23,
 				timeFrame: "n28"
 			}
 		}
