@@ -76,10 +76,10 @@ var config = {
 				leagues: {
 					"Champions League": "CL",
 					"Premier League": "PL",
-					// "1. Bundesliga": "BL1",
-					// "Lique 1": "FL1",
-					// "Serie A": "SA",
-					// "La Liga Santander": "PD"
+					"1. Bundesliga": "BL1",
+					"Lique 1": "FL1",
+					"Serie A": "SA",
+					"La Liga Santander": "PD"
 				},
 				leaguesShowAllGames: {
 					// "World Cup": "WC"
@@ -178,7 +178,7 @@ var config = {
           'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
-				displayMax: 23,
+				displayMax: 20,
 				timeFrame: "n28"
 			}
 		}
