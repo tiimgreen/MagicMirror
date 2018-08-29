@@ -74,24 +74,27 @@ var config = {
 			position: "bottom_right",
 			config: {
 				leagues: {
-					"Premier League": 445,
-					"Serie A": 456,
-					"Lique 1": 450,
-					"Champions League": 464,
-					"1. Bundesliga": 452,
-					"La Liga Santander": 455,
+					"Champions League": "CL",
+					"Premier League": "PL",
+					// "1. Bundesliga": "BL1",
+					// "Lique 1": "FL1",
+					// "Serie A": "SA",
+					// "La Liga Santander": "PD"
 				},
 				leaguesShowAllGames: {
-					"World Cup": 467
+					// "World Cup": "WC"
 				},
 				teams: [
 					// England
-					"Manchester City FC",
-					"Tottenham Hotspur FC",
-					"Chelsea FC",
-					"Manchester United FC",
-					"Arsenal FC",
-					"Liverpool FC",
+  					// Prem
+  					"Manchester City FC",
+  					"Tottenham Hotspur FC",
+  					"Chelsea FC",
+  					"Manchester United FC",
+  					"Arsenal FC",
+  					"Liverpool FC",
+            // Championship
+            "Leeds United FC",
 					// Italy
 					"Juventus Turin",
 					"SSC Napoli",
@@ -147,10 +150,28 @@ var config = {
 					'Panama': 'https://www.onlinestores.com/flagdetective/images/download/panama-hi.jpg',
 					'Saudi Arabia': 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/1000px-Flag_of_Saudi_Arabia.svg.png',
 					'Japan': 'https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/1200px-Flag_of_Japan.svg.png',
-					'Russia': 'https://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730%21Flag_of_Russia.svg'
+					'Russia': 'https://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730%21Flag_of_Russia.svg',
+          'Arsenal FC': 'http://aux.iconspalace.com/uploads/arsenal-logo-icon-256.png',
+          'Fulham FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/144.png',
+          'Newcastle United FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/13.png',
+          'Manchester United FC': 'http://aux2.iconspalace.com/uploads/manchester-united-logo-icon-256.png',
+          'Cardiff City FC': 'https://i.pinimg.com/originals/9c/4f/ab/9c4fab30d606869d168c16d4a2e4d26b.png',
+          'Tottenham Hotspur FC': 'http://aux2.iconspalace.com/uploads/tottenham-hotspur-logo-icon-256.png',
+          'Huddersfield Town AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1939.png',
+          'Watford FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1795.png',
+          'Brighton & Hove Albion FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1808.png',
+          'Manchester City FC': 'https://futhead.cursecdn.com/static/img/17/clubs/10.png',
+          'West Ham United FC': 'http://aux2.iconspalace.com/uploads/west-ham-united-logo-icon-256.png',
+          'Everton FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/7.png',
+          'Chelsea FC': 'http://aux.iconspalace.com/uploads/chelsea-logo-icon-256.png',
+          'Wolverhampton Wanderers FC': 'http://aux2.iconspalace.com/uploads/wolverhampton-wanderers-logo-icon-256.png',
+          'Southampton FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/17.png',
+          'Liverpool FC': 'http://aux.iconspalace.com/uploads/liverpool-fc-logo-icon-256.png',
+          'Watford FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1795.png',
+          'Burnley FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1796.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
-				display_max: 25,
+				displayMax: 25,
 				timeFrame: "n28"
 			}
 		}
