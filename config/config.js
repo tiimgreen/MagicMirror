@@ -74,13 +74,15 @@ var config = {
 			position: "bottom_right",
 			config: {
 				leagues: {
-					"Champions League": "CL",
-					"Premier League": "PL",
 					"1. Bundesliga": "BL1",
 					"Lique 1": "FL1",
 					"Serie A": "SA",
 					"La Liga Santander": "PD"
 				},
+        preferredLeagues: {
+					"Champions League": "CL",
+					"Premier League": "PL",
+        },
 				leaguesShowAllGames: {
 					// "World Cup": "WC"
 				},
@@ -111,12 +113,13 @@ var config = {
 					"FC Barcelona",
 					"Real Madrid CF",
 					"Sevilla FC",
-					"Villarreal CF",
-					"Real Sociedad de Fútbol",
+					"Valencia CF",
 					"Club Atlético de Madrid",
 					// Germany
 					"FC Bayern München",
-					"Borussia Dortmund"
+					"Borussia Dortmund",
+          "FC Schalke 04",
+          "RB Leipzig"
 				],
 				teamBadges: {
 					'Germany': 'https://img.fifa.com/images/flags/4/ger.png',
@@ -175,11 +178,31 @@ var config = {
           'Sunderland AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/106.png',
           'Stoke City FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1806.png',
           'Swansea City AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1960.png',
-          'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png'
+          'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png',
+          'AC Milan': 'https://futhead.cursecdn.com/static/img/15/clubs_large/47.png',
+          'AS Roma': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/11/logo.png',
+          'Juventus Turin': 'http://aux.iconspalace.com/uploads/juventus-logo-icon-256.png',
+          'SSC Napoli': 'https://dbcdnk728du6i.cloudfront.net/teams/logos/128x128/2446-napoli.png',
+					'SS Lazio': 'https://futhead.cursecdn.com/static/img/14/clubs/46.png',
+					'FC Internazionale Milano': 'https://futhead.cursecdn.com/static/img/17/clubs/44.png',
+          'Paris Saint-Germain': 'https://futhead.cursecdn.com/static/img/17/clubs/73.png',
+					'AS Monaco FC': 'http://aux.iconspalace.com/uploads/as-monaco-logo-icon-256.png',
+					'Olympique de Marseille': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/85/logo.png',
+					'Olympique Lyonnais': 'http://aux2.iconspalace.com/uploads/olympique-lyonnais-logo-icon-256.png',
+          'FC Barcelona': 'http://aux.iconspalace.com/uploads/fc-barcelona-logo-icon-256.png',
+					'Real Madrid CF': 'http://aux2.iconspalace.com/uploads/real-madrid-logo-icon-256.png',
+					'Sevilla FC': 'http://aux2.iconspalace.com/uploads/sevilla-logo-icon-256.png',
+					'Valencia CF': 'http://aux2.iconspalace.com/uploads/valencia-logo-icon-256.png',
+					'Club Atlético de Madrid': 'https://pesstatsdatabase.com/PSD/PSD/Images/Clubs/Spain/Club-Atletico-de-Madrid.png',
+          'FC Bayern München': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/80/logo.png',
+					'Borussia Dortmund': 'http://aux.iconspalace.com/uploads/borussia-dortmund-logo-icon-256.png',
+          'FC Schalke 04': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/120/logo.png',
+          'RB Leipzig': 'http://en.fodb.net/img/club/Germany/100/RB-Leipzig.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
 				displayMax: 20,
-				timeFrame: "n28"
+				daysAhead: 28,
+        daysBehind: 2
 			}
 		}
 	]
