@@ -181,7 +181,7 @@ var config = {
           'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png',
           'AC Milan': 'https://futhead.cursecdn.com/static/img/15/clubs_large/47.png',
           'AS Roma': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/11/logo.png',
-          'Juventus Turin': 'http://aux.iconspalace.com/uploads/juventus-logo-icon-256.png',
+          'Juventus FC': 'http://aux.iconspalace.com/uploads/juventus-logo-icon-256.png',
           'SSC Napoli': 'https://dbcdnk728du6i.cloudfront.net/teams/logos/128x128/2446-napoli.png',
 					'SS Lazio': 'https://futhead.cursecdn.com/static/img/14/clubs/46.png',
 					'FC Internazionale Milano': 'https://futhead.cursecdn.com/static/img/17/clubs/44.png',
@@ -197,7 +197,12 @@ var config = {
           'FC Bayern München': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/80/logo.png',
 					'Borussia Dortmund': 'http://aux.iconspalace.com/uploads/borussia-dortmund-logo-icon-256.png',
           'FC Schalke 04': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/120/logo.png',
-          'RB Leipzig': 'http://en.fodb.net/img/club/Germany/100/RB-Leipzig.png'
+          'RB Leipzig': 'http://en.fodb.net/img/club/Germany/100/RB-Leipzig.png',
+          'PSV': 'http://aux2.iconspalace.com/uploads/psv-eindhoven-logo-icon-256.png',
+          'BSC Young Boys': 'https://futhead.cursecdn.com/static/img/16/clubs/900.png',
+          'Sport Lisboa e Benfica': 'http://www.futbol24.com/upload/team/Portugal/SL-Benfica-R.png',
+          'FC Porto': 'http://aux.iconspalace.com/uploads/fc-porto-logo-icon-256.png',
+          'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
 				displayMax: 24,
