@@ -106,6 +106,7 @@ var config = {
 					"AC Milan",
 					// France
 					"Paris Saint-Germain",
+          "Paris Saint-Germain FC",
 					"AS Monaco FC",
 					"Olympique de Marseille",
 					"Olympique Lyonnais",
@@ -186,6 +187,7 @@ var config = {
 					'SS Lazio': 'https://futhead.cursecdn.com/static/img/14/clubs/46.png',
 					'FC Internazionale Milano': 'https://futhead.cursecdn.com/static/img/17/clubs/44.png',
           'Paris Saint-Germain': 'https://futhead.cursecdn.com/static/img/17/clubs/73.png',
+          'Paris Saint-Germain FC': 'https://futhead.cursecdn.com/static/img/17/clubs/73.png',
 					'AS Monaco FC': 'http://aux.iconspalace.com/uploads/as-monaco-logo-icon-256.png',
 					'Olympique de Marseille': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/85/logo.png',
 					'Olympique Lyonnais': 'http://aux2.iconspalace.com/uploads/olympique-lyonnais-logo-icon-256.png',
