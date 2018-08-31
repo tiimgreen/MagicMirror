@@ -200,7 +200,7 @@ var config = {
           'RB Leipzig': 'http://en.fodb.net/img/club/Germany/100/RB-Leipzig.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
-				displayMax: 20,
+				displayMax: 24,
 				daysAhead: 28,
         daysBehind: 2
 			}
