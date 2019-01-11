@@ -83,15 +83,18 @@ var config = {
 			module: "MMM-Football-Fixtures",
 			position: "bottom_right",
 			config: {
+        // both teams must be in the 'teams' list to show game
 				leagues: {
 					"1. Bundesliga": "BL1",
 					"Lique 1": "FL1",
 					"Serie A": "SA",
 					"La Liga Santander": "PD"
 				},
+        // one of the teams must be in the 'teams' list to show the game
         preferredLeagues: {
 					"Champions League": "CL",
 					"Premier League": "PL",
+          "Championship": "ELC"
         },
 				leaguesShowAllGames: {
 					// "World Cup": "WC"
@@ -106,7 +109,7 @@ var config = {
   					"Arsenal FC",
   					"Liverpool FC",
             // Championship
-            "Leeds United FC",
+            "Leeds United AFC",
 					// Italy
 					"Juventus Turin",
 					"SSC Napoli",
@@ -190,6 +193,7 @@ var config = {
           'Stoke City FC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1806.png',
           'Swansea City AFC': 'https://futhead.cursecdn.com/static/img/15/clubs_large/1960.png',
           'Hull City': 'https://futhead.cursecdn.com/static/img/17/items/badges/6000211.png',
+          'Leeds United AFC': 'http://futhead.cursecdn.com/static/img/14/clubs/8.png',
           'AC Milan': 'https://futhead.cursecdn.com/static/img/15/clubs_large/47.png',
           'AS Roma': 'https://d1si3tbndbzwz9.cloudfront.net/soccer/team/11/logo.png',
           'Juventus FC': 'http://aux.iconspalace.com/uploads/juventus-logo-icon-256.png',
@@ -217,7 +221,7 @@ var config = {
           'FK Crvena Zvezda': 'http://cdn.staticneo.com/w/pes/1/19/Redstar.png'
 				},
 				apiKey: "853dcb03f6744e43a3d851c5af5e722d",
-				displayMax: 24,
+				displayMax: 6,
 				daysAhead: 28,
         daysBehind: 2
 			}
