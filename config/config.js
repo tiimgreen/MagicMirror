@@ -56,6 +56,16 @@ var config = {
 			position: "bottom_center"
 		},
 		{
+			module: "weatherforecast",
+			position: "bottom_left",
+			header: "Weather Forecast",
+			config: {
+				location: "London",
+				locationID: "2643743",  //ID from http://www.openweathermap.org/help/city_list.txt
+				appid: "631bf7eec20d3151cfe826ecc7f217e6"
+			}
+		},
+		{
 			module: "MMM-cryptocurrency",
 			position: "top_left",
 			config: {
